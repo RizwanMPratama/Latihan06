@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivDts"
+        android:src="@drawable/dts"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId" />
+    <TextView
+        android:id="@+id/tvDtsTittle"
+        android:text="DIGITAL TALENT SCHOLARSHIPS"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_above="@id/ivDts"
+        android:layout_marginBottom="30dp"
+        tools:ignore="HardcodedText,SpUsage" />
+    <TextView
+        android:id="@+id/tvTahun"
+        android:text="2019"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText,SpUsage" />
+    <TextView
+        android:id="@+id/tvKampus"
+        android:text="POLITEKNIK NEGERI BANJARMASIN"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/tvTahun"
+        android:layout_marginBottom="60dp"
+        tools:ignore="SpUsage" />
+
+
+</RelativeLayout>
